@@ -17,7 +17,7 @@ Package.onUse(function (api) {
 
     api.use('planettraining:ng-cache-buster@0.4.0', 'server');
     var basePath = 'bower_components/fullcalendar/dist/lang';
-    var packagesPath = 'packages/fullcalendar-lang-assets';
+    var packagesPath = '';//'packages/fullcalendar-lang-assets';
     var files = fs.readdirSync(path.join(packagesPath,basePath));
 
 
